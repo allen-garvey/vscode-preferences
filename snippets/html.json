@@ -12,6 +12,27 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+
+	"default template": {
+		"prefix": "htmldefault",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"\t<head>",
+			"\t<meta charset=\"utf-8\"/>",
+			"\t<title></title>",
+			"\t<meta name=\"description\" content=\"\"/>",
+			"\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/>",
+			"\t<link rel=\"stylesheet\" type=\"text/css\" href=\"\"/>",
+			"\t<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->",
+			"\t</head>",
+			"\t<body>",
+			"",
+			"\t</body>",
+			"</html>",
+		],
+		"description": "default html template"
+	},
 	
 	"PHP tag": {
 		"prefix": "php",
