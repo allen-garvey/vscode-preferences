@@ -1,0 +1,15 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Noto Mono",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.tabCompletion": true,
+    "workbench.colorTheme": "Default Dark+",
+    "telemetry.enableTelemetry": false,
+    "eslint.enable": true,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+}
