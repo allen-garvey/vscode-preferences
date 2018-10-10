@@ -20,4 +20,14 @@
 		],
 		"description": "Log output to console"
 	},
+
+	"IIFE": {
+		"prefix": "closure",
+		"body": [
+			"(function(){",
+			"\t$1",
+			"})();"
+		],
+		"description": "Create immediately invoked function expression"
+	},
 }
