@@ -30,4 +30,12 @@
 		],
 		"description": "Create immediately invoked function expression"
 	},
+
+	"getElementById": {
+		"prefix": "getElementById",
+		"body": [
+			"document.getElementById('$1')${2:;}",
+		],
+		"description": "Get element by id"
+	},
 }
