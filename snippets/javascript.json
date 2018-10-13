@@ -38,4 +38,12 @@
 		],
 		"description": "Get element by id"
 	},
+
+	"querySelector": {
+		"prefix": "querySelector",
+		"body": [
+			"document.querySelector('$1')${2:;}",
+		],
+		"description": "Get element by css selector"
+	},
 }
