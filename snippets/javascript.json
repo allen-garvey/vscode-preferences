@@ -46,4 +46,12 @@
 		],
 		"description": "Get element by css selector"
 	},
+
+	"querySelectorAll": {
+		"prefix": "querySelectorAll",
+		"body": [
+			"document.querySelectorAll('$1')${2:;}",
+		],
+		"description": "Get elements by css selector"
+	},
 }
