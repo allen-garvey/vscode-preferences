@@ -54,4 +54,14 @@
 		],
 		"description": "Get elements by css selector"
 	},
+
+	"map": {
+		"prefix": "map",
+		"body": [
+			"${1:array}.map((${2:item}, index)=>{",
+			"\t$3",
+			"})${4:;}",
+		],
+		"description": "Array map method"
+	},
 }
