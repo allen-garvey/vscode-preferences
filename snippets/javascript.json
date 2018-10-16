@@ -64,4 +64,14 @@
 		],
 		"description": "Array map method"
 	},
+
+	"filter": {
+		"prefix": "filter",
+		"body": [
+			"${1:array}.filter((${2:item})=>{",
+			"\t$3",
+			"})${4:;}",
+		],
+		"description": "Array filter method"
+	},
 }
