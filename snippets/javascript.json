@@ -74,4 +74,32 @@
 		],
 		"description": "Array filter method"
 	},
+
+	"vue-component": {
+		"prefix": "vuecomponent",
+		"body": [
+			"export default {",
+			"\tname: '$1',",
+			"\tprops: {",
+			"\t},",
+			"\tcomponents: {",
+			"\t},",
+			"\tcreated(){",
+			"\t},",
+			"\tmounted(){",
+			"\t},",
+			"\tdata(){ ",
+			"\t\treturn{",
+			"\t\t};",
+			"\t},",
+			"\tcomputed: {",
+			"\t},",
+			"\twatch: {",
+			"\t},",
+			"\tmethods: {",
+			"\t}",
+			"};",
+		],
+		"description": "Vue component stub"
+	},
 }
