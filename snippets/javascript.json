@@ -102,4 +102,15 @@
 		],
 		"description": "Vue component stub"
 	},
+
+	"vue-prop": {
+		"prefix": "vueprop",
+		"body": [
+			"${1:name}: {",
+			"\ttype: ${2:String},",
+			"\t${3:required: true,}",
+			"}${4:,}",
+		],
+		"description": "Vue component prop with validation"
+	},
 }
