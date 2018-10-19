@@ -13,6 +13,16 @@
 	// 	"description": "Log output to console"
 	// }
 
+	"Heading comment": {
+		"prefix": "docc",
+		"body": [
+			"/**",
+			" * $1",
+			" */"
+		],
+		"description": "Heading comment"
+	},
+
 	"Console log": {
 		"prefix": "console.log",
 		"body": [
