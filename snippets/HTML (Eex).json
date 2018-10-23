@@ -19,5 +19,15 @@
 			"<%= $1 %>",
 		],
 		"description": "Elixir print expression"
+	},
+
+	"Elixir for print loop": {
+		"prefix": "for",
+		"body": [
+			"<%= for ${1:item} <- ${2:@items} do %>",
+			"\t$3",
+			"<% end %>",
+		],
+		"description": "Elixir for print loop"
 	}
 }
