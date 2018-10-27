@@ -40,5 +40,13 @@
 			"}",
 		],
 		"description": "Default command-line utility setup"
+	},
+
+	"stderr": {
+		"prefix": "stderr",
+		"body": [
+			"stderr.writef(\"$1${2:%s}\", $3);",
+		],
+		"description": "Write to stderr"
 	}
 }
