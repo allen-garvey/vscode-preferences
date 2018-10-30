@@ -50,5 +50,15 @@
 			"<?= $1; ?>",
 		],
 		"description": "PHP echo short-tag"
+	},
+
+	"PHP foreach template": {
+		"prefix": "foreach",
+		"body": [
+			"<?php foreach(${1:\\$array} as ${2:\\$key} ${3:=> \\$value}): ?>",
+			"\t$4",
+			"<?php endforeach; ?>"
+		],
+		"description": "PHP foreach template"
 	}
 }
