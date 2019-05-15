@@ -25,5 +25,18 @@
           "}"
         ],
         "description": "Media query min width"
+    },
+    "position_absolute": {
+        "prefix": "abs",
+        "scope": "css,scss",
+        "body": [
+           "position: absolute;",
+		   "top: 0;",
+		   "bottom: 0;",
+           "left: 0;",
+           "right: 0;",
+           "z-index: 10;"
+        ],
+        "description": "Positions element absolute covering parent"
     }
 }
