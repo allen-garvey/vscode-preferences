@@ -16,14 +16,16 @@
 		"prefix": "component",
 		"body": [
 					"<template>",
-					"    <div>",
+					"    <div class=\"$1\">",
 					"        $2",
 					"    </div>",
 					"</template>",
 					"",
 					"<script>",
 					"export default {",
-					"    name: '$1',",
+					"    props: {",
+					"        ",
+					"    },",
 					"    components: {",
 					"    },",
 					"    created(){",
@@ -40,8 +42,7 @@
 					"    },",
 					"    methods: {",
 					"    }",
-					"};",
-					"</script>"
+					"};"
 		],
 		"description": "Create empty Vue single file component"
 	}
