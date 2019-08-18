@@ -43,7 +43,7 @@
 					"    methods: {",
 					"    }",
 					"};",
-					"<script>"
+					"</script>"
 		],
 		"description": "Create empty Vue single file component"
 	}
