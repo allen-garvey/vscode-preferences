@@ -50,5 +50,13 @@
 					"</script>"			
 		],
 		"description": "Create empty Vue single file component"
+	},
+	"css_module": {
+		"prefix": "css_module",
+		"body": [
+			"<style lang=\"scss\" module>",
+			"$1",
+			"</style>",
+		]
 	}
 }
