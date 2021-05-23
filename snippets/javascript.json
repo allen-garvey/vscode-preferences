@@ -84,4 +84,14 @@
 		],
 		"description": "Array filter method"
 	},
+
+	"promise": {
+		"prefix": "promise",
+		"body": [
+			"new Promise((resolve, reject) => {",
+			"\t$1",
+			"});",
+		],
+		"description": "Promise constructor"
+	},
 }
