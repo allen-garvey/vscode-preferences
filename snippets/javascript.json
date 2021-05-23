@@ -94,4 +94,12 @@
 		],
 		"description": "Promise constructor"
 	},
+
+	"then": {
+		"prefix": "then",
+		"body": [
+			".then(($1) => $2);",
+		],
+		"description": "promise.then()"
+	},
 }
