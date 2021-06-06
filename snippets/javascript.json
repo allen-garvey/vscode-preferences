@@ -85,6 +85,14 @@
 		"description": "Array filter method"
 	},
 
+	"reduce": {
+		"prefix": "reduce",
+		"body": [
+			".reduce((itemsMap, currentValue, index) => { itemsMap[index] = ${1:currentValue} }, {})",
+		],
+		"description": "Array reduce to object"
+	},
+
 	"promise": {
 		"prefix": "promise",
 		"body": [
