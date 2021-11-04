@@ -55,7 +55,7 @@
 		"prefix": "component_ts",
 		"body": [
 			"<template>",
-			"    <div :class=\"$style.container\">",
+			"    <div :class=\"\\$style.container\">",
 			"        ",
 			"    </div>",
 			"</template>",
