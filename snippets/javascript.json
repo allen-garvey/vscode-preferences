@@ -85,42 +85,32 @@
 		"description": "Array filter method"
 	},
 
-	"vue-component": {
-		"prefix": "vuecomponent",
+	"reduce": {
+		"prefix": "reduce",
 		"body": [
-			"export default {",
-			"\tname: '$1',",
-			"\tprops: {",
-			"\t},",
-			"\tcomponents: {",
-			"\t},",
-			"\tcreated(){",
-			"\t},",
-			"\tmounted(){",
-			"\t},",
-			"\tdata(){ ",
-			"\t\treturn{",
-			"\t\t};",
-			"\t},",
-			"\tcomputed: {",
-			"\t},",
-			"\twatch: {",
-			"\t},",
-			"\tmethods: {",
-			"\t}",
-			"};",
+			".reduce((itemsMap, currentValue, index) => { ",
+			"\titemsMap[index] = ${1:currentValue};",
+			"\treturn itemsMap;",
+			"}, {})",
 		],
-		"description": "Vue component stub"
+		"description": "Array reduce to object"
 	},
 
-	"vue-prop": {
-		"prefix": "vueprop",
+	"promise": {
+		"prefix": "promise",
 		"body": [
-			"${1:name}: {",
-			"\ttype: ${2:String},",
-			"\t${3:required: true,}",
-			"}${4:,}",
+			"new Promise((resolve, reject) => {",
+			"\t$1",
+			"});",
 		],
-		"description": "Vue component prop with validation"
+		"description": "Promise constructor"
+	},
+
+	"then": {
+		"prefix": "then",
+		"body": [
+			".then(($1) => $2);",
+		],
+		"description": "promise.then()"
 	},
 }
