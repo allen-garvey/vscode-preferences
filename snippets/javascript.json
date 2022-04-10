@@ -113,4 +113,22 @@
 		],
 		"description": "promise.then()"
 	},
+
+	"arrow_function_void": {
+		"prefix": "function",
+		"body": [
+			"() => {",
+			"\t$1",
+			"};",
+		],
+		"description": "Arrow function {}"
+	},
+
+	"arrow_function": {
+		"prefix": "function",
+		"body": [
+			"() => $1",
+		],
+		"description": "Arrow function"
+	},
 }
