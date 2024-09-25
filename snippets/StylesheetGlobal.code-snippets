@@ -16,7 +16,17 @@
 	// 	"description": "Log output to console"
 	// }
 
-	"media_query_min_width": {
+	"media_query_dark_mode": {
+        "prefix": "dark",
+        "scope": "css,scss",
+        "body": [
+          "@media (prefers-color-scheme: dark) {",
+          "\t$1",
+          "}",
+        ],
+        "description": "Media query dark mode"
+    },
+  "media_query_min_width": {
         "prefix": "mq",
         "scope": "css,scss",
         "body": [
