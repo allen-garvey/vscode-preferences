@@ -1,0 +1,32 @@
+{
+    "editor.fontFamily": "'Noto Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 20,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.wordWrap": "on",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.formatOnSave": false
+    },
+    "[glsl]": {
+        "editor.formatOnSave": false
+    },
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "files.associations": {
+        "*.musicxml": "xml",
+        "*.tmpl": "go-template"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.startupEditor": "none"
+}
