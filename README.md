@@ -4,7 +4,7 @@ Settings and code snippets for VS Code.
 
 ## Getting started
 
-* VS Code snippets are stored in `~/.config/Code/User/snippets` on Linux and `~/Library/Application Support/Code/User/snippets` on macOS ([documentation on settings files](https://code.visualstudio.com/docs/getstarted/settings))
+* VS Code snippets are stored in `~/.config/Code/User/snippets` on Linux and `~/Library/Application\ Support/Code/User/snippets` on macOS ([documentation on settings files](https://code.visualstudio.com/docs/getstarted/settings))
 
 ## Dependencies
 
