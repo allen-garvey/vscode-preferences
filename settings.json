@@ -1,7 +1,8 @@
 {
     "editor.fontFamily": "'Noto Mono', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontSize": 20,
+    "editor.fontSize": 21,
     "editor.minimap.enabled": false,
+    "editor.minimap.autohide": true,
     "explorer.confirmDelete": false,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -20,7 +21,7 @@
         "editor.formatOnSave": false
     },
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 1.8,
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "all",
     "files.associations": {
