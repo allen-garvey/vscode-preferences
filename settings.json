@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'Noto Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "Monaco, 'Noto Mono', 'Droid Sans Mono', 'Courier New', monospace",
     "editor.fontSize": 21,
     "editor.minimap.enabled": false,
     "editor.minimap.autohide": true,
@@ -12,6 +12,9 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
