@@ -12,7 +12,6 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-
 	"Define named function": {
 		"prefix": "def",
 		"body": [
@@ -25,7 +24,6 @@
 		],
 		"description": "Define named function"
 	},
-
 	"For loop": {
 		"prefix": "for",
 		"body": [
@@ -35,7 +33,6 @@
 		],
 		"description": "For loop"
 	},
-
 	"If": {
 		"prefix": "if",
 		"body": [
@@ -44,5 +41,12 @@
 			"end",
 		],
 		"description": "If"
+	},
+	"Verified route": {
+		"prefix": "p",
+		"body": [
+			"~p\"$1\"",
+		],
+		"description": "Phoenix verified route sigil"
 	}
 }
