@@ -40,7 +40,7 @@
 	"Verified route": {
 		"prefix": "p",
 		"body": [
-			"~p\"$1\"",
+			"~p\"/$1\"",
 		],
 		"description": "Phoenix verified route sigil"
 	}
